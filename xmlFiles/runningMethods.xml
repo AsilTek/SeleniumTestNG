@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Running Methods">
+
+    <test name="We will run methods">
+
+        <classes>
+
+            <class name="tests.day16_page_Object_model.C02_NegativeLoginTest">
+
+                <methods>
+                    <!-- we can exclude specific method-->
+                    <exclude name="invalidPasswordTest"></exclude>
+
+                </methods>
+
+            </class>
+
+            <class name="tests.day14_testNG_framework.C02_DependsOnMethod"></class>
+            <class name="tests.day16_page_Object_model.C01_PositiveLoginTest"></class>
+
+        </classes>
+
+    </test>
+
+</suite>
