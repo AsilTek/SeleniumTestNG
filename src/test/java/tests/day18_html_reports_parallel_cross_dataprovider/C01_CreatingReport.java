@@ -21,6 +21,7 @@ public class C01_CreatingReport extends TestBasedReport {
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
         extentTest.info("User reached the Amazon website");
 
+
         //2- search for Nutella
         AmazonPage amazonPage = new AmazonPage();
         amazonPage.amazonSearchBox.sendKeys(ConfigReader.getProperty("amazonWordToSearch")+ Keys.ENTER);
