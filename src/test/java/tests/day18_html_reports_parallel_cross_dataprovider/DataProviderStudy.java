@@ -7,7 +7,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import utilities.Driver;
 
-public class DataProviderCalisma {
+public class DataProviderStudy {
 
     //Data Driven Testing DDT is using DataProvider
     //For example, we are going to test functionality of Log in part of website with many sample ID and password.
